@@ -7,7 +7,7 @@ import { HeroListComponent } from './hero-list.component';
 @Component({
     selector: 'my-app',
     template: `
-    <h1>Router Config Test </h1>
+    <h1>Router Config MileStone2 </h1>
     <nav>
         <a [routerLink]="['CrisisCenter']">Crisis Center</a>
         <a [routerLink]="['Heroes']">Heroes</a>
