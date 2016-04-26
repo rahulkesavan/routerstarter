@@ -24,4 +24,7 @@ export class HeroDetailComponent implements OnInit {
     // Like <a [routerLink]="['Heroes']">Heroes</a>
     this._router.navigate(['Heroes']);
   }
+  goBack() {
+    window.history.back();
+  }
 }
