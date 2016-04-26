@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import { RouteConfig, ROUTER_DIRECTIVES } from 'angular2/router';
 
-import { CrisisCenterListComponent } from './crisis-center.component';
+import { CrisisListComponent } from './crisis-list.component';
 import { HeroListComponent } from './hero-list.component';
 
 @Component({
@@ -17,7 +17,7 @@ import { HeroListComponent } from './hero-list.component';
     directives: [ ROUTER_DIRECTIVES ]
 })
 @RouteConfig([
-    {path: '/crisis-center', name: 'CrisisCenter', component: CrisisCenterListComponent},
+    {path: '/crisis-center', name: 'CrisisCenter', component: CrisisListComponent},
     {path: '/heroes', name: 'Heroes', component: HeroListComponent}
 ])
 export class AppComponent { }
