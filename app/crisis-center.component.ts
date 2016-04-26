@@ -6,4 +6,4 @@ import { Component } from 'angular2/core';
         <span>Get your crisis list here</span>
     `
 })
-export class CrisisListComponent {}
+export class CrisisCenterListComponent {}
